@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOSH — Financial Optimization Standards for Households</title>
+  <meta name="description" content="FOSH is an open standard for measuring the quality of household financial plans. An independent nonprofit standards body, formed in 2026.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">
+      <img src="logo.svg" alt="FOSH" class="nav-logo-mark">
+      <div class="nav-logo-text">
+        <span class="nav-logo-name">FOSH</span>
+        <span class="nav-logo-sub">Governance Board</span>
+      </div>
+    </a>
+    <a href="#paths" class="btn btn-outline">Get involved</a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <h1>Two financial planners can give the <span class="hero-em">same client</span> completely <span class="hero-em">different</span> advice.</h1>
+      <p class="hero-sub">There's no standard for knowing which one is better.</p>
+      <p class="hero-tagline">FOSH is building it.</p>
+      <div class="hero-ctas">
+        <a href="#founding-firms" class="btn btn-primary">I'm a financial planning firm</a>
+        <a href="#founding-board" class="btn btn-ghost">I'm a researcher, regulator, or advocate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE PROBLEM -->
+  <section id="problem">
+    <div class="container">
+      <h2>The profession has a measurement gap.</h2>
+      <p>Financial planning has sophisticated tools, licensed advisors, and fiduciary standards. What it does not have is a shared way to measure plan quality.</p>
+      <p>Two independently built plans for the same household can recommend different savings rates, different retirement timelines, and different tradeoffs. Both may come from competent, well-intentioned professionals. Both can appear entirely reasonable.</p>
+      <blockquote>
+        <p>One plan might have a client retiring at 62. Another at 68. Today, there is no standard way to evaluate which recommendation is actually making better use of what that household has.</p>
+      </blockquote>
+      <p>This is not a problem of intent. It is a problem of measurement.</p>
+    </div>
+  </section>
+
+  <!-- THE STANDARD -->
+  <section id="standard">
+    <div class="container">
+      <h2>FOSH defines what must be measured — not how to advise.</h2>
+      <p>Financial Optimization Standards for Households (FOSH) is an open standard for measuring the quality of a household financial plan.</p>
+      <p>Similar to how GAAP standardizes financial reporting or GIPS standardizes investment performance, FOSH defines what must be declared, computed, and reported — so plan quality can be evaluated consistently, across advisors and firms.</p>
+      <p>FOSH does not tell clients which plan is right for them. It gives advisors and clients an objective basis for understanding which plans are making better use of what's available — and which tradeoffs each plan involves.</p>
+      <p>Once operational, FOSH-certified firms will submit plans through authorized verification services. The result will be an auditable record of where a plan stands relative to the best outcomes available for that specific household.</p>
+      <p class="emphasis-line">No prescribed strategies. No mandated philosophy. Just measurement.</p>
+    </div>
+  </section>
+
+  <!-- THE GOVERNANCE BOARD -->
+  <section id="governance">
+    <div class="container">
+      <h2>An independent nonprofit standards body.</h2>
+      <p>FOSH is governed by the FOSH Governance Board, a nonprofit organization incorporated in April 2026.</p>
+      <p>The Board is being structured for independence: bylaws will mandate a majority-independent board of directors and explicit anti-capture provisions, with no exclusive relationships with any verification service or planning firm.</p>
+      <div class="three-up">
+        <div class="pillar">
+          <span class="pillar-label">Public</span>
+          <p>The standard</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar-label">Transparent</span>
+          <p>The governance</p>
+        </div>
+        <div class="pillar">
+          <span class="pillar-label">Objective</span>
+          <p>The measurement</p>
+        </div>
+      </div>
+      <p class="footnote">Academic papers introducing the FOSH framework are currently under peer review.</p>
+    </div>
+  </section>
+
+  <!-- WHO IS THIS FOR -->
+  <section id="paths">
+    <div class="container">
+      <h2>Who is this for?</h2>
+      <div class="two-paths">
+        <div class="path-card">
+          <h3>Financial planning firms</h3>
+          <p>Demonstrate plan quality that clients and regulators can independently verify. We are forming the founding cohort now.</p>
+          <a href="#founding-firms" class="btn btn-primary">Learn about Founding Membership</a>
+        </div>
+        <div class="path-card">
+          <h3>Researchers, regulators, and consumer advocates</h3>
+          <p>Help shape an independent standard for measuring financial advice quality. The Governance Board is recruiting founding directors.</p>
+          <a href="#founding-board" class="btn btn-secondary">Learn about the Board</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDING FIRMS -->
+  <section id="founding-firms">
+    <div class="container">
+      <div class="section-label">For financial planning firms</div>
+      <h2>Become a Founding Member firm.</h2>
+      <p>FOSH Certification will open when the ecosystem is ready. Until then, Founding Member firms make an early commitment to the Governance Board — a signal that financial planning should have a measurable quality standard.</p>
+
+      <div class="benefits-list">
+        <div class="benefit">Named on fosh.org as a Founding Member firm</div>
+        <div class="benefit">Priority access to FOSH Certification at launch</div>
+        <div class="benefit">A direct feedback channel into certification design</div>
+      </div>
+
+      <p>Founding Member status is reviewed directly by the Board.</p>
+
+      <div class="form-container">
+        <h3>Start the conversation</h3>
+        <form name="firm-interest" method="POST" action="/thanks.html" data-netlify="true">
+          <input type="hidden" name="form-name" value="firm-interest">
+          <div class="form-group">
+            <label for="firm-name">Your name</label>
+            <input type="text" id="firm-name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="firm-firm">Firm</label>
+            <input type="text" id="firm-firm" name="firm" required>
+          </div>
+          <div class="form-group">
+            <label for="firm-title">Title <span class="optional">(optional)</span></label>
+            <input type="text" id="firm-title" name="title" autocomplete="organization-title">
+          </div>
+          <div class="form-group">
+            <label for="firm-email">Email</label>
+            <input type="email" id="firm-email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="firm-message">Anything you'd like to share <span class="optional">(optional)</span></label>
+            <textarea id="firm-message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDING BOARD -->
+  <section id="founding-board">
+    <div class="container">
+      <div class="section-label">For researchers, regulators, and advocates</div>
+      <h2>Join the founding Board of Directors.</h2>
+      <p>The FOSH Governance Board is seeking founding directors with backgrounds in academic research, regulatory policy, and consumer advocacy. The majority of directors cannot be employed by or financially tied to the firms or verification services the Board oversees — that independence is structural, not aspirational.</p>
+      <p>If you believe financial advice quality should be independently measurable, we would like to hear from you.</p>
+
+      <div class="form-container">
+        <h3>Express interest</h3>
+        <form name="board-interest" method="POST" action="/thanks.html" data-netlify="true">
+          <input type="hidden" name="form-name" value="board-interest">
+          <div class="form-group">
+            <label for="board-name">Your name</label>
+            <input type="text" id="board-name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="board-org">Organization or affiliation <span class="optional">(optional)</span></label>
+            <input type="text" id="board-org" name="organization" autocomplete="organization">
+          </div>
+          <div class="form-group">
+            <label for="board-background">Background</label>
+            <select id="board-background" name="background">
+              <option value="">Select one</option>
+              <option value="academic">Academic / researcher</option>
+              <option value="regulator">Former regulator or policy</option>
+              <option value="consumer">Consumer advocate</option>
+              <option value="journalist">Financial journalist</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="board-email">Email</label>
+            <input type="email" id="board-email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="board-message">Anything you'd like to share <span class="optional">(optional)</span></label>
+            <textarea id="board-message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">
+        <img src="logo.svg" alt="FOSH" class="footer-logo-mark">
+        <div class="footer-logo-text">
+          <span class="footer-logo-name">FOSH</span>
+          <span class="footer-logo-sub">Financial Optimization Standards for Households</span>
+        </div>
+      </div>
+      <p>Administered by FOSH Governance Board, a nonprofit standards body incorporated in April 2026.</p>
+      <p><a href="mailto:info@fosh.org">info@fosh.org</a></p>
+      <p class="footer-legal">
+        © 2026 FOSH Governance Board.
+        For official standard documentation, visit <a href="/standard">fosh.org/standard</a>.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

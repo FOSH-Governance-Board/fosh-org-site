@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# Redirect /standard until that page is built
+[[redirects]]
+  from = "/standard"
+  to = "/"
+  status = 302
