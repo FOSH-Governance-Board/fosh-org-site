@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>JFP Paper — Supplementary Materials — FOSH</title>
+  <meta name="description" content="Supplementary materials for the FOSH paper submitted to the Journal of Financial Planning.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .paper-page { padding-top: var(--space-xl); padding-bottom: var(--space-xl); }
+    .paper-meta { background: var(--bg); border: 1px solid var(--border-light); border-radius: var(--radius); padding: var(--space-md); margin: var(--space-lg) 0; font-size: 0.95em; }
+    .paper-meta dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.4em 1.5em; margin: 0; }
+    .paper-meta dt { font-weight: 600; color: var(--charcoal); }
+    .paper-meta dd { margin: 0; color: var(--body-text); }
+    .download-callout { background: var(--teal-light); border-left: 4px solid var(--teal); padding: var(--space-md); border-radius: var(--radius); margin: var(--space-lg) 0; }
+    .download-callout .btn { margin-top: var(--space-sm); }
+    .file-integrity { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85em; color: var(--muted); word-break: break-all; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">
+      <img src="/logo.svg" alt="FOSH" class="nav-logo-mark">
+      <div class="nav-logo-text">
+        <span class="nav-logo-name">FOSH</span>
+        <span class="nav-logo-sub">Governance Board</span>
+      </div>
+    </a>
+  </nav>
+
+  <section class="paper-page">
+    <div class="container">
+
+      <div class="section-label">Supplementary materials</div>
+      <h1>Introducing FOSH: A Proposed Standard for Objective, Comparable Household Financial Advice</h1>
+
+      <div class="paper-meta">
+        <dl>
+          <dt>Submitted to</dt><dd>Journal of Financial Planning</dd>
+          <dt>Submission date</dt><dd>2026</dd>
+          <dt>Status</dt><dd>Under peer review</dd>
+        </dl>
+      </div>
+
+      <h2>About this page</h2>
+      <p>This page hosts the supplementary materials for the manuscript above, currently under peer review at the Journal of Financial Planning. The accompanying Excel workbook implements the worked example presented in the paper end-to-end, allowing readers to verify every computation.</p>
+
+      <h2>What's in the workbook</h2>
+      <p>The workbook constructs the household financial system problem (HFSP) for a representative household, sweeps the decision space using a deterministic optimization, and reports a representative sample of points along the resulting trade-off surface (the objective Pareto-efficient hull, or OPEH). The efficiency of two illustrative submitted plans is then computed relative to that surface.</p>
+      <p>All decision variables, constraints, formulas, and assumptions are declared in the workbook. The example is intentionally simplified to ensure full reproducibility within a standard spreadsheet environment; production implementations would extend the same framework with stochastic modeling and additional decision domains.</p>
+
+      <div class="download-callout">
+        <strong>Download the workbook</strong>
+        <p>Excel format (.xlsx) — 35 KB</p>
+        <a href="proof-of-concept.xlsx" class="btn btn-primary" download>Download proof-of-concept.xlsx</a>
+        <p class="file-integrity" style="margin-top: var(--space-sm);">
+          SHA-256: 878320AEAEDCA1F86087C349E1CD1A7A9B4A976A07E52FA7518810239FE16B6E<br>
+          Version: 2026-05-03
+        </p>
+      </div>
+
+      <h2>Citing the workbook</h2>
+      <p>If citing the supplementary workbook independently of the paper, please cite the paper itself once published. A permanent identifier (DOI) will be added to this page upon publication.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about the paper or workbook may be directed to the author through the journal during peer review, or to <a href="mailto:info@fosh.org">info@fosh.org</a> after publication.</p>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="footer-legal">© 2026 FOSH Governance Board</p>
+    </div>
+  </footer>
+
+</body>
+</html>

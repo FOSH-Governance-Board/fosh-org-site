@@ -6,3 +6,11 @@
   from = "/standard"
   to = "/"
   status = 302
+
+# Belt-and-suspenders: send X-Robots-Tag header for paper pages so search engines
+# don't index them during blind peer review (in addition to the meta robots tag
+# in each paper's index.html).
+[[headers]]
+  for = "/papers/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
